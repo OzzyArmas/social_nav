@@ -22,7 +22,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://hlpr_gazebo/objects/meshes/kitchen_counter_orig0.stl" />
+          filename="package://unconstrained_navigation_fetch_mapping/launch/objects/meshes/kitchen_counter_orig0.stl" />
       </geometry>
       <!--material
         name="">
@@ -36,7 +36,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://hlpr_gazebo/objects/meshes/kitchen_counter_orig0.stl" />
+          filename="package://unconstrained_navigation_fetch_mapping/launch/objects/meshes/kitchen_counter_orig0.stl" />
       </geometry>
     </collision>
   </link>

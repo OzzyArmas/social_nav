@@ -22,7 +22,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://hlpr_gazebo/objects/meshes/bbm.stl" />
+          filename="package://unconstrained_navigation_fetch_mapping/launch/objects/meshes/bbm.stl" />
       </geometry>
     </visual>
     <collision>
@@ -31,7 +31,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://hlpr_gazebo/objects/meshes/bbm.stl" />
+          filename="package://unconstrained_navigation_fetch_mapping/launch/objects/meshes/bbm.stl" />
       </geometry>
     </collision>
   </link>
@@ -57,7 +57,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://hlpr_gazebo/objects/meshes/bbt.stl" />
+          filename="package://unconstrained_navigation_fetch_mapping/launch/objects/meshes/bbt.stl" />
       </geometry>
     </visual>
     <collision>
@@ -66,7 +66,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://hlpr_gazebo/objects/meshes/bbt.stl" />
+          filename="package://unconstrained_navigation_fetch_mapping/launch/objects/meshes/bbt.stl" />
       </geometry>
     </collision>
   </link>
