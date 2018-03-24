@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<launch>
+  <arg name="world" default="worlds/empty.world"/>
+  <arg name="room" default="$(find mapping)/launch/fetch_simple_room.launch"/>
+  <arg name="gui" default="true"/>
+  <arg name="debug" default="false"/>
+  <!-- startup simulated world -->
+  <include file="$(find gazebo_ros)/launch/empty_world.launch">
+    <arg name="world_name" default="$(arg world)"/>
+    <arg name="paused" value="false" />
+    <arg name="gui" value="$(arg gui)" />
+    <arg name="use_sim_time" value="true"/>
+  </include>
+
+  <include file="$(arg room)"/>
+ <include file="$(find fetch_gazebo)/launch/include/fetch.launch.xml"/>
+</launch>  
