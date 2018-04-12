@@ -1,15 +1,17 @@
-# Unconstrained Navigation Fetch
+# Unconstrained Social Nav
 
 This is a repository for basic Fetch development
 
-## To-do's
+## Done
 
-* Complete Bibliography
-  - Search papers on navigation in public areas
-  - Search documents/papers using ROS Navigation
-  - Search papers involving HRI and moving robots in crowded areas
-* Design Test Cases
-* Clean Up Code
-* Simulate Objects moving towards Fetch
+* Work Plan
+* Literature Review
+* Introduction
+* 'Minimum' number of sources
 
+## Todo
+
+*  Prepare poster presentation
+*  Create simulation with Fetch and SFM
+*  Develop on SFM
 
