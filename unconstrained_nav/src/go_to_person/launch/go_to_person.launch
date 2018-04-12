@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<launch>
+    <group>
+        <node pkg="go_to_person" name="action" type="go_to_closest.py"/>
+    	<node pkg="go_to_person" name="person" type="people_node.py"/> 
+    </group>
+</launch>
